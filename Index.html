@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+   <section id = "Datos"> 
+
+    <label for="Nombre"> NOMBRE: <input type = "text" id = "txtNombre"> </label> 
+    <br>
+    <label for="Edad">EDAD: <input type = "number" id="txtEdad"> </label>
+    <br>
+    <label for="Sexo">SEXO: 
+        
+       <label>HOMBRE <input type="radio" id="rbtSexoH" value="Hombre"> </label>
+       <label>MUJER <input type="radio" id="rbtSexoM" value="Mujer"> </label>
+    
+    </label>
+    <br>
+    <label for="Peso">PESO(KG): <input type="number" id="txtPeso"></label>
+    <br>
+    <label for="Estatura">ESTATURA(M): <input type="number" id="txtEstatura"></label>
+    <br>
+    <input type="button" value="CALCULAR IMC" onclick="imc">
+
+   </section>
+
+   <section id="Resultados">
+
+    <label>RESULTADO: </label>
+        
+    <label>IMC:<label id="lblImc"> </label> </label> 
+    <label>CATEGORIA:<label id="lblCategoria"> </label> </label>
+
+   </section>
+</body>
+</html>
